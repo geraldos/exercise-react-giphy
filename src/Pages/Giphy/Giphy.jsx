@@ -86,7 +86,7 @@ function Giphy() {
       <CardList>
         {datas.map((item) => {
           return (
-            <Card key={[iamges{}]}>
+            <Card key={}>
               <p>{item.login}</p>
               <img src={item.avatar_url} alt="avatar" />
             </Card>
